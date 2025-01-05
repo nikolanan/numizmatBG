@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    margin: 0 auto;
+}
+
+#background{
+    margin-top:0.1em;
+    width: 100%;
+    height: 30rem;
+    filter: blur(2px);
+    transition: opacity 2s ease-in-out;
+    opacity: 1; 
+}
+.image-container.fade-out #background {
+    opacity: 0; 
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+.text{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-left:3rem;
+    padding-right: 3rem;
+    margin-top:5rem;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color:rgba(36, 35, 34, 0.731);
+    position: absolute;
+    font-size:2.7rem;
+}
+.coins{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    padding-left:3rem;
+    padding-right: 3rem;
+    margin-top:11rem;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    background-color:rgba(255, 240, 190, 0.639);
+    border: 2px solid #c0afd7;
+    position: absolute;
+    text-decoration: none; 
+}
+
+.coins:hover{
+    background-color:rgb(255, 240, 190);
+    cursor:pointer;
+}
+
+.header1{
+    font-size:3.5rem;
+    text-align: center;
+    color: #6c3baa;
+}
+
+.header2{
+    font-size:1.5rem;
+    text-align: center;
+    color: black;
+    padding-bottom: 1.5em;;
+}
+
+.header3{
+    font-size:1.3rem;
+    padding-left:0.2em;
+    padding-right:0.2em;
+    text-align: center;
+
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: row;
+    gap:1rem
+}
+
+.how{
+    border: 2px solid #6c3baa;
+    border-radius: 1rem;
+    margin-left:0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+.what{
+    border: 2px solid #6c3baa;
+    border-radius: 1rem;
+    margin-left:0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+.can{
+    border: 2px solid #6c3baa;
+    border-radius: 1rem;
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+
+.how:hover {
+    transform: scale(1.03); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+}
+.what:hover {
+    transform: scale(1.03); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+}
+.can:hover {
+    transform: scale(1.03); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+}
+
+.how p {
+    color:black;
+    justify-self: center;
+    text-align: start;
+    padding-left:0.4rem;
+    padding-right:0.4rem;
+}
+.what p {
+    color:black;
+    justify-self: center;
+    text-align: start;
+    padding-left:0.4rem;
+    padding-right:0.4rem;
+}
+.can p {
+    color:black;
+    justify-self: center;
+    text-align: start;
+    padding-left:0.4rem;
+    padding-right:0.4rem;
+}
+
+
+

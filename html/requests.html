@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Направете поръчка за редки монети и ценни банкноти. 
+    Споделете вашите изисквания и ние ще ви помогнем да намерите най-доброто.Намерете монети 
+    и банкноти от Княжество България и Царство България по вашите изисвания.">
+    <meta name="keywords" content="поръчка монети, поръчка банкноти, 
+    редки монети, ценни банкноти,монети със сертификат, монети без сертификат,
+    изключително редки монети, сребърни монети, 1 лв 1916,2 лв 1916, 1 лв 1913, 100 лв 1894,
+    юбилейни монети, монети на Фердинанд, монети на Борис,нумизматични поръчки, НумизматБГ">
+    <meta name="author" content="НумизматБГ ООД">
+    <title>НумизматБГ</title>
+    <script src="../js/showTable.js"></script>
+    <script src="../js/fillData.js"></script>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/requests.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <header>
+        <a class="upperLeft" href="homePage.html">
+            <img class="logo" src="../images/100lv.png" alt="100 лв 1894">
+            <p class="title">НумизматБГ</p>
+        </a>
+
+        <ul class="menu">
+            <li> <a class="menuElement" href="../html/homePage.html">Начало</a> </li>
+            <li> <a class="menuElement" href="../html/aboutUs.html">За нас</a> </li>
+            <li> <a class="menuElement" href="../html/news.html">Новини</a> </li>
+            <li> <a class="menuElement" href="../html/catalog.html"> Каталог</a> </li>
+            <li> <a class="menuElement" href="../html/requests.html">Поръчай</a> </li>
+        </ul>
+    </header>
+
+
+    <main class="mainRequest">
+        <button class="toggleButton"> Покажи таблицатa</button>
+        <div class="tableContainer" style="display: none;">
+            <table class="rarityTable">
+                <thead>
+                    <tr>
+                        <th>Рядкост</th>
+                        <th>Обяснение</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>В обращение</td>
+                        <td>Монетата/банкнотата все още се използва в ежедневните транзакции и лесно се намира.</td>
+                    </tr>
+                    <tr>
+                        <td>Често срещана</td>
+                        <td>Монетата/банкнотата е извън обращение, но се среща в големи количества на пазара или сред
+                            колекционерите.</td>
+                    </tr>
+                    <tr>
+                        <td>Не се среща често</td>
+                        <td>Монетата/банкнотата е извън обращение и наличните бройки са по-ограничени, но все още достъпни.</td>
+                    </tr>
+                    <tr>
+                        <td>Рядка</td>
+                        <td>Монетата/банкнотата е трудно достъпна, тъй като наличните бройки са малко и се търсят активно от
+                            колекционерите.</td>
+                    </tr>
+                    <tr>
+                        <td>Трудна за намиране</td>
+                        <td>Монетата/банкнотата се намира рядко на пазара и обикновено е в частни колекции или на високи цени.</td>
+                    </tr>
+                    <tr>
+                        <td>Изключително рядка</td>
+                        <td>Монетата/банкнотата е почти невъзможно да се намери, налична е само в изключително ограничени бройки и
+                            обикновено е част от музейни или частни колекции.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+        <div class="form-style-1">
+            <form>
+                <fieldset>
+                    <legend><span class="number">1</span> Лична информация</legend>
+                    <input class="name" type="text" name="field1" placeholder=' Имена' required>
+                    <input class="email" type="email" name="field2" placeholder=" Имейл" required>
+                    <input class="telephone" type="telephone" name="field3" placeholder=" Телефон" required>
+                    <label class="interests-label" for="query">Заявка:</label>
+                </fieldset>
+                <fieldset>
+                    <legend><span class="number">2</span> Допълнителна информация</legend>
+                    <select class="interests" id="buy_sell" name="field5" required>
+
+                        <option value="buy">купи</option>
+                        <option value="sell">продай</option>
+                    </select>
+                    <div class="info">
+                        <i class="fa fa-info-circle icon"></i>
+                        <p>Виж таблицата за инфомация за класификацията</p>
+                    </div>
+                    <select class="interests" id="rarity" name="field5" required>
+
+                        <option value="one"> В обращение</option>
+                        <option value="two"> Често срещана</option>
+                        <option value="three">Не се среща често</option>
+                        <option value="four"> Рядка</option>
+                        <option value="five"> Трудна за намиране</option>
+                        <option value="six"> Изключително рядка</option>
+
+                    </select>
+                    <textarea class="requirements" name="field3"
+                        placeholder=" Вашите характеристики за монетите/банкнотите" required></textarea>
+                </fieldset>
+                <input class="button" type="submit" value="Изпрати" />
+            </form>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="allSections">
+            <div class="leftSection">
+                <p class="contacts"> Контакти </p>
+                <div class="details">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:Bulgarian_Numismatics@gmail.com">Bulgarian_Numismatics@gmail.com</a>
+                </div>
+                <div class="details">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a target="_blank" href="https://www.google.com/maps/@43.2089229,27.9081757,64m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">
+                        ул. "Ангел Георгиев №16"
+                    </a>
+                </div>
+                <div class="details">
+                    <i class="fas fa-phone"></i>
+                    <p> +359 87 124560 </p>
+                </div>
+                
+                
+            </div>
+            <div class="middleSection">
+                <a href="homePage.html"> © НумизматБГ ООД 2025</a>
+            </div>
+            <div class="rightSection">
+                <p class="contacts">Последвай ни и тук</p>
+                <div class="social">
+                    <i class="fab fa-facebook"></i>
+                    <a target="_blank" href="https://www.facebook.com">Facebook</a>
+                </div>
+                <div class="social">
+                    <i class="fab fa-instagram"></i>
+                    <a target="_blank" href="https://www.instagram.com">Instagram</a>
+                </div>
+                <div class="social">
+                    <i class="fab fa-youtube"></i>
+                    <a target="_blank" href="https://www.youtube.com">Youtube</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

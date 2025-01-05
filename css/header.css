@@ -1,0 +1,64 @@
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: linear-gradient(to top, rgb(255, 240, 190), rgb(249, 231, 171));
+    height: 6rem;
+    border-bottom: 1px solid #6c3baa;
+}
+
+.logo{
+    margin: 1rem 1rem;
+    width: 4rem;
+    height: auto;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-left:2rem;
+    
+}
+li{
+    padding:1rem;
+    width: 5rem;
+}
+
+li a{
+    color: black;
+    text-shadow: -5px 5px 15px rgba(0, 0, 0, 0.7);
+}
+li a:hover{
+    border-bottom: 3px solid #6c3baa;
+}
+.menuElement{
+    text-decoration: none;
+}
+
+.upperLeft {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;   
+}
+.upperLeft:hover{
+    color:#6c3baa;
+}
+.title{
+    font-weight: 600;
+    padding:1rem;
+    padding-left:0;
+}
+
+
+::-webkit-scrollbar {
+    width: 1rem; 
+    background-color: white; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 240, 190); 
+    border: 1px solid #6c3baa;
+    border-radius: 1rem; 
+}
