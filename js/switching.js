@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
     let imageContainer = document.querySelector(".image-container");
     let paragraphText = document.querySelector(".text")
     let imageSources = [
-        "../images/background.jpg", 
-        "../images/background2.jpg"
+        "images/background.jpg", 
+        "images/background2.jpg"
     ];
     let textImages = [
         "Купи - продай ценни монети",
